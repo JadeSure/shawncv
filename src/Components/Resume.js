@@ -31,12 +31,24 @@ class Resume extends Component {
     const work = this.props.data.work.map(function (work) {
       return (
         <div key={work.company}>
-          <h3>{work.company}</h3>
+          <h3>{work.company}
+          <span> &nbsp;</span>
+            {work.web_link ?
+            <a href={work.web_link}>
+              Link
+            </a> 
+            : ''}
+          </h3>
           <p className="info">
             {work.title}
-            <span>&bull;</span> <em className="date">{work.years}</em>
+           <em className="date">{work.years}</em>
           </p>
-          <p>{work.description}</p>
+          {/* <p>{work.description}</p> */}
+          <p>
+            {work.description.map(function (bullet_point){
+              return <li>{bullet_point}</li>
+            })}
+          </p>
         </div>
       );
     });

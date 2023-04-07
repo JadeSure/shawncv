@@ -29,7 +29,7 @@ class Contact extends Component {
           </div>
         </Fade>
 
-        <div className="row">
+        {/* <div className="row">
           <Slide left duration={1000}>
             <div className="eight columns">
               <form action="" method="post" id="contactForm" name="contactForm">
@@ -147,7 +147,7 @@ class Contact extends Component {
               </div>
             </aside>
           </Slide>
-        </div>
+        </div> */}
       </section>
     );
   }

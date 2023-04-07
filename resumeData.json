@@ -1,0 +1,137 @@
+{
+  "main": {
+    "name":"Awesome Shawn",
+    "description":"With a Master of Information Technology by research from RMIT University and over 4 years of experience in the IT industry, including 1.5 years of software development experience, and selected as 1 of 24 participants in the Australian Computer Society Victoria Technology Talent Program, I possess practical expertise in web development and algorithms using Nodejs, Reactjs, .Net core, and Flask. To better handle work challenges, I underwent a rigorous DevOps Bootcamp program at JR. Academy with a few commercial team projects. I have experience working with agile methodologies, delivering high-quality work, and possess excellent interpersonal skills. Fluent in both English and Mandarin, I am eager to contribute my skills and knowledge to an innovative team.",
+    "image":"profilepic.jpg",
+    "bio":"Stay Foolish, Stay Hungry",
+    "contactmessage":"Contact Me By Linkedin/RED!",
+    "email": "tremendous.shawn.wang@outlook.com",
+    "phone": "0452298726",
+    "github":"https://github.com/JadeSure",
+    "myblog":"https://shawnblog.petslovers.com.au/",
+    "address":{
+      "street":"Abeckett st",
+      "city":"Melbourne City",
+      "state":"VIC",
+      "zip": "3000"
+    },
+    "website": "http://google.com.au",
+    "resumedownload":"myCV/Shawn_CV_DevOps.pdf",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/tremendous-shawn-wang/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"RED",
+        "url":"https://www.xiaohongshu.com/user/profile/5c2154e70000000005037d6c",
+        "className":"fa fa-book"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/JadeSure",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"High related skills in DevOps/Cloud Engineer",
+    "education":[
+      {
+        "school":"JR Academy",
+        "degree":"DevOps BootCamp",
+        "graduated":"April 2023",
+        "description":"systematically learn how to apply various tools at different stages of DevOps. This course addresses the lack of hands-on experience in traditional DevOps training. You will participate in large-scale commercial projects, working in teams composed of developers, DevOps engineers, and business analysts."
+      },
+      {
+        "school":"RMIT University(Distinction Achieved)",
+        "degree":"Master of Information Technology (Research Stream)",
+        "graduated":"March 2021",
+        "description":"Extensively covering various fields of IT, including object-oriented programming, cloud computing, algorithms, computer networks, and so on. Compared with a coursework degree, the research stream includes a three-credit project in the AI al- gorithm(Machine Learning, Deep Learning and Reinforcement Learning)-the related field with a higher quality thesis."
+      }
+    ],
+    "work":[
+      {
+        "company":"Oli TechFin",
+        "title":"Software Engineer",
+        "years":"Feb 2022 - Feb 2023",
+        "web_link": "https://www.mister.market/",
+        "description":
+          ["Utilizing various AWS services to complete the different stages of product development. This in- cluded using Route53 and Amplify for frontend deployment, API Gateway and EventBridge with Lambda for backend development. Besides, I also wrapped an additional layer for a payment API to save hundreds of dollars for the company per month. Additionally, I utilized AWS SDKs for SNS, SMS, and S3.",
+          "Improving the high availability of MT5(MetaTrader 5) servers, we maintained main and alterna- tive servers across cloud providers including AWS, GCP, and AliCloud. We also monitored the system’s running status using AWS CloudWatch, SNS, and Grafana.",
+          "Building a data streaming pipeline for MT5 and implemented historical data crawling using Python to extract data from other competitors’ MT5 and MT4(MetaTrader 4) platforms. This helped to enrich our company’s trading database to attract customers.",
+          "Developing the backend RESTful APIs using Python, Flask, Flask-Smorest, Flask-JWT-Extended, and Flask-SQLAlchemy to create a platform that enables clients to post advertisements easily through their Google Ads accounts."
+        ]
+      },
+      {
+        "company":"Freedom Lend",
+        "title":"Software Engineer",
+        "years":"Nov 2021 - Feb 2022",
+        "description":
+          ["Developing a web fill automation tool using Selenium combined with .NET WPF, which auto- matically filled data into web forms, reducing manual data entry time. The tool was highly flexible, customizable, and improving productivity and streamlining workflows.",
+          "UtilizingSQL/T-SQLtogeneratereportsforservicedepartmentsbyleveragingSQLServerReporting Services (SSRS) on SQL Server as well as Postgresql databases. Insightful reports provided valuable information to our service departments, which helps to improve decision-making processes and in- crease efficiency."
+        ]
+      }
+    ],
+    "skills":[
+      {
+        "name":"Jenkins",
+        "level":"80%"
+      },
+      {
+        "name":"Terraform",
+        "level":"95%"
+      },
+      {
+        "name":"AWS",
+        "level":"80%"
+      },
+      {
+        "name":"Azure",
+        "level":"50%"
+      },
+      {
+        "name":"Docker",
+        "level":"80%"
+      },
+      {
+        "name":"EKS/AKS",
+        "level":"60%"
+      },
+      {
+        "name":"Python",
+        "level":"80%"
+      },
+      {
+        "name":"Bash",
+        "level":"70%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Sortify Inventory Web",
+        "tech": "Web App by Jenkins & Terraform & Docker & ECS with AWS",
+        "category":"Developed a web application using Next.js and Node.js with TS that provides a straightforward inventory management system for grocery stores. This application allows real-time tracking of inventory and assets details",
+        "image":"sortlog.png",
+        "url":"https://drive.google.com/file/d/1bHeBQSO7o7spmuVlIi9VlpZI-iT9KaDV/view?usp=share_link"
+      },
+      {
+        "title":"Avanger Gamera Community",
+        "tech": "Web App with CI/CD, IaC and EKS on AWS",
+        "category":"The project utilizes Java Spring Boot & Reactjs, and is built using Gradle to create a com- prehensive web portal, including an online forum with a community culture that features a news section, classified information, and discussion groups for finding similar interests and hobbies.",
+        "image":"gamera.png",
+        "url":"https://dev.gamera.com.au/"
+      },
+      {
+        "title":"Companet Alliance PetLover",
+        "tech": "Web with IaC Orchast in EKS&AKS and AWS&Azure",
+        "category":"The goal is to create a comprehensive web portal(Nodejs & Reactjs) for Australian pet lovers to communicate experiences, share ideas and make friends. It integrated OpenAI’s Chatgpt to create a Q&A feature for users, which can answer a wide range of personalized questions.",
+        "image":"PetLover.png",
+        "url":"https://petslovers.com.au/"
+      }
+    ]
+  }
+}

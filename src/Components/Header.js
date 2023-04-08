@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import ParticlesBg from "particles-bg";
-import Fade from "react-reveal";
+import React, { Component } from 'react';
+import ParticlesBg from 'particles-bg';
+import Fade from 'react-reveal';
 
 class Header extends Component {
   render() {
@@ -13,7 +13,7 @@ class Header extends Component {
 
     return (
       <header id="home">
-        <ParticlesBg type="color" bg={true} />
+        <ParticlesBg type="circle" bg={true} />
 
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">

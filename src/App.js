@@ -1,38 +1,40 @@
-import React, { Component } from "react";
-import ReactGA from "react-ga";
-import $ from "jquery";
-import "./App.css";
-import Header from "./Components/Header";
-import Footer from "./Components/Footer";
-import About from "./Components/About";
-import Resume from "./Components/Resume";
-import Contact from "./Components/Contact";
-import Portfolio from "./Components/Portfolio";
+import React, { Component } from 'react';
+import ReactGA from 'react-ga';
+import $ from 'jquery';
+import './App.css';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
+import About from './Components/About';
+import Resume from './Components/Resume';
+import Contact from './Components/Contact';
+import Portfolio from './Components/Portfolio';
+
+import MouseParticles from 'react-mouse-particles';
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      foo: "bar",
-      resumeData: {}
+      foo: 'bar',
+      resumeData: {},
     };
 
-    ReactGA.initialize("UA-110570651-1");
+    ReactGA.initialize('UA-110570651-1');
     ReactGA.pageview(window.location.pathname);
   }
 
   getResumeData() {
     $.ajax({
-      url: "./resumeData.json",
-      dataType: "json",
+      url: './resumeData.json',
+      dataType: 'json',
       cache: false,
-      success: function(data) {
+      success: function (data) {
         this.setState({ resumeData: data });
       }.bind(this),
-      error: function(xhr, status, err) {
+      error: function (xhr, status, err) {
         console.log(err);
         alert(err);
-      }
+      },
     });
   }
 
@@ -43,6 +45,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <MouseParticles
+          g={1}
+          color="random"
+          cull="MuiSvgIcon-root,MuiButton-root"
+          level={6}
+        />
         <Header data={this.state.resumeData.main} />
         <About data={this.state.resumeData.main} />
         <Resume data={this.state.resumeData.resume} />

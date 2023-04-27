@@ -120,21 +120,21 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Sortify Inventory Web",
+        "title":"Sortify Inventory - SortLog",
         "tech": "Web App by Jenkins & Terraform & Docker & ECS with AWS",
         "category":"Developed a web application using Next.js and Node.js with TS that provides a straightforward inventory management system for grocery stores. This application allows real-time tracking of inventory and assets details",
         "image":"sortlog.png",
         "url":"https://drive.google.com/file/d/1bHeBQSO7o7spmuVlIi9VlpZI-iT9KaDV/view?usp=share_link"
       },
       {
-        "title":"Avanger Gamera Community",
+        "title":"Avanger - Gamera Community",
         "tech": "Web App with CI/CD, IaC and EKS on AWS",
         "category":"The project utilizes Java Spring Boot & Reactjs, and is built using Gradle to create a com- prehensive web portal, including an online forum with a community culture that features a news section, classified information, and discussion groups for finding similar interests and hobbies.",
         "image":"gamera.png",
         "url":"https://dev.gamera.com.au/"
       },
       {
-        "title":"Companet Alliance PetLover",
+        "title":"Companet Alliance - PetLover",
         "tech": "Web with IaC Orchast in EKS&AKS and AWS&Azure",
         "category":"The goal is to create a comprehensive web portal(Nodejs & Reactjs) for Australian pet lovers to communicate experiences, share ideas and make friends. It integrated OpenAI’s Chatgpt to create a Q&A feature for users, which can answer a wide range of personalized questions.",
         "image":"PetLover.png",

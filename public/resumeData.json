@@ -10,10 +10,10 @@
     "github":"https://github.com/JadeSure",
     "myblog":"https://blog.shawnwang.cloud/",
     "address":{
-      "street":"Abeckett st",
-      "city":"Melbourne City",
-      "state":"VIC",
-      "zip": "3000"
+      "street":"Georges Terrace",
+      "city":"Perth",
+      "state":"WA",
+      "zip": "6000"
     },
     "website": "http://google.com.au",
     "resumedownload":"myCV/Shawn_CV_DevOps.pdf",
@@ -39,26 +39,37 @@
     "skillmessage":"High related skills in DevOps/Cloud Engineer",
     "education":[
       {
-        "school":"JR Academy",
-        "degree":"DevOps BootCamp",
-        "graduated":"April 2023",
-        "description":"systematically learn how to apply various tools at different stages of DevOps. This course addresses the lack of hands-on experience in traditional DevOps training. You will participate in large-scale commercial projects, working in teams composed of developers, DevOps engineers, and business analysts."
-      },
-      {
         "school":"RMIT University(Distinction Achieved)",
         "degree":"Master of Information Technology (Research Stream)",
         "graduated":"March 2021",
         "description":"Extensively covering various fields of IT, including object-oriented programming, cloud computing, algorithms, computer networks, and so on. Compared with a coursework degree, the research stream includes a three-credit project in the AI al- gorithm(Machine Learning, Deep Learning and Reinforcement Learning)-the related field with a higher quality thesis."
+      },
+      {
+        "school": "Shanghai University of Engineering Science",
+        "degree": "Bachelor of Aviation Engineering",
+        "graduated": "July 2016",
+        "description": "Acquired the essential skills in the mechanism engineer with a solid mathematical foundation and principle of automatic control, including VB Programming Design, Automatic Control Theory, Principles of Database, Linear Algebra, Probability Theory, and Single & Several-variable Calculus."
       }
     ],
     "work":[
       {
+        "company":"Versent(Telstra Purple)",
+        "title":"Engineer",
+        "years":"Jul 2023 - Feb 2023",
+        "web_link": "https://www.linkedin.com/company/versent/",
+        "description":
+          ["Automated agent installation and patching (Azure ARC, Defender, SSM agent) using Bash/PowerShell scripts.",
+          "Developed Python IaC automation for Palo Alto Panorama and AWS VPC (Transit Gateway, route tables) using Ansible and CloudFormation.",
+          "Integrated AWS SAM, Step Functions, API Gateway, and Lambda to automate syncing Illumio data to Panorama and Palo Alto firewall configurations.",
+          "Implemented GitHub Actions CI/CD pipelines to validate AWS configuration changes and sync data to S3 using OIDC for secure AWS resource access."
+        ]
+      },
+      {
         "company":"Oli TechFin",
         "title":"Software Engineer",
-        "years":"Feb 2022 - Feb 2023",
-        "web_link": "https://www.mister.market/",
+        "years":"Feb 2022 - Jan 2023",
         "description":
-          ["Utilizing various AWS services to complete the different stages of product development. This in- cluded using Route53 and Amplify for frontend deployment, API Gateway and EventBridge with Lambda for backend development. Besides, I also wrapped an additional layer for a payment API to save hundreds of dollars for the company per month. Additionally, I utilized AWS SDKs for SNS, SMS, and S3.",
+          ["Utilizing various AWS services to complete the different stages of product development. This included using Route53 and Amplify for frontend deployment, API Gateway and EventBridge with Lambda for backend development. Besides, I also wrapped an additional layer for a payment API to save hundreds of dollars for the company per month. Additionally, I utilized AWS SDKs for SNS, SMS, and S3.",
           "Improving the high availability of MT5(MetaTrader 5) servers, we maintained main and alterna- tive servers across cloud providers including AWS, GCP, and AliCloud. We also monitored the system’s running status using AWS CloudWatch, SNS, and Grafana.",
           "Building a data streaming pipeline for MT5 and implemented historical data crawling using Python to extract data from other competitors’ MT5 and MT4(MetaTrader 4) platforms. This helped to enrich our company’s trading database to attract customers.",
           "Developing the backend RESTful APIs using Python, Flask, Flask-Smorest, Flask-JWT-Extended, and Flask-SQLAlchemy to create a platform that enables clients to post advertisements easily through their Google Ads accounts."
@@ -68,6 +79,7 @@
         "company":"Freedom Lend",
         "title":"Software Engineer",
         "years":"Nov 2021 - Feb 2022",
+        "web_link": "https://www.freedomlend.com.au/",
         "description":
           ["Developing a web fill automation tool using Selenium combined with .NET WPF, which auto- matically filled data into web forms, reducing manual data entry time. The tool was highly flexible, customizable, and improving productivity and streamlining workflows.",
           "UtilizingSQL/T-SQLtogeneratereportsforservicedepartmentsbyleveragingSQLServerReporting Services (SSRS) on SQL Server as well as Postgresql databases. Insightful reports provided valuable information to our service departments, which helps to improve decision-making processes and in- crease efficiency."

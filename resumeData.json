@@ -55,7 +55,7 @@
       {
         "company":"Versent(Telstra Purple)",
         "title":"Engineer",
-        "years":"Jul 2023 - Feb 2023",
+        "years":"Jul 2023 - until now",
         "web_link": "https://www.linkedin.com/company/versent/",
         "description":
           ["Automated agent installation and patching (Azure ARC, Defender, SSM agent) using Bash/PowerShell scripts.",

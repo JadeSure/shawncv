@@ -15,6 +15,7 @@ class About extends Component {
     const phone = this.props.data.phone;
     const email = this.props.data.email;
     const resumeDownload = this.props.data.resumedownload;
+    const certificates = this.props.data.certificates;
 
     return (
       <section id="about">
@@ -31,15 +32,21 @@ class About extends Component {
               <h2>About Me</h2>
 
               <p>{bio}</p>
+              <h2>Certificate</h2>
+              <p> 
+                {certificates.map(function (certificate){
+                  return  <a href={certificate.url}><li key={certificate.name}>{certificate.name}</li></a>
+                })}
+              </p>
               <div className="row">
                 <div className="columns contact-details">
                   <h2>Contact Details</h2>
                   <p className="address">
-                    <span>{name}</span>
-                    <br />
+                    {/* <span>{name}</span> */}
+                    {/* <br /> */}
                     <span>
-                      {street}
-                      <br />
+                      {/* {street} */}
+                      {/* <br /> */}
                       {city} {state}, {zip}
                     </span>
                     <br />

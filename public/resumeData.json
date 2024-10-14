@@ -4,6 +4,11 @@
     "description":"With a Master of Information Technology by research from RMIT University and over 4 years of experience in the IT industry, including 1.5 years of software development experience in the real industry, and selected as 1 of 24 participants in the Australian Computer Society Victoria Technology Talent Program, I possess practical expertise in Web development and algorithms using Nodejs, Reactjs, .Net core, and Flask. Additionally, I have gained valuable experience as a DevOps Engineer on several large-scale commercial team projects, working with agile methodologies to deliver high-quality work. With excellent interpersonal skills and fluency in both English and Mandarin, I am eager to contribute my skills and knowledge to an innovative team.",
     "image":"profilepic.jpg",
     "bio":"Stay Foolish, Stay Hungry",
+    "certificates":[
+      {"name": "AWS Certified Solutions Architect - Associate", "url": "https://www.credly.com/badges/d80af44f-6470-4f77-ae37-66385523e288/linked_in_profile"},
+      {"name": "AWS Certified Developer - Associate", "url": "https://www.credly.com/badges/6be555a7-9eff-47b8-a456-b6a28b099f02/linked_in_profile"},
+      {"name": "AZ-900: Microsoft Azure Fundamentals", "url": "https://learn.microsoft.com/api/credentials/share/en-au/ShawnWang-6192/D7889145FE27658F?sharingId"}
+     ],
     "contactmessage":"Contact Me By Linkedin/RED!",
     "email": "tremendous.shawn.wang@outlook.com",
     "phone": "0452298726",
@@ -54,8 +59,8 @@
     "work":[
       {
         "company":"Versent(Telstra Purple)",
-        "title":"Engineer",
-        "years":"Jul 2023 - until now",
+        "title":"Cloud Engineer ",
+        "years":"Jul 2023 - Until Now",
         "web_link": "https://www.linkedin.com/company/versent/",
         "description":
           ["Automated agent installation and patching (Azure ARC, Defender, SSM agent) using Bash/PowerShell scripts.",
@@ -66,7 +71,7 @@
       },
       {
         "company":"Oli TechFin",
-        "title":"Software Engineer",
+        "title":"Software Engineer ",
         "years":"Feb 2022 - Jan 2023",
         "description":
           ["Utilizing various AWS services to complete the different stages of product development. This included using Route53 and Amplify for frontend deployment, API Gateway and EventBridge with Lambda for backend development. Besides, I also wrapped an additional layer for a payment API to save hundreds of dollars for the company per month. Additionally, I utilized AWS SDKs for SNS, SMS, and S3.",
@@ -77,7 +82,7 @@
       },
       {
         "company":"Freedom Lend",
-        "title":"Software Engineer",
+        "title":"Software Engineer ",
         "years":"Nov 2021 - Feb 2022",
         "web_link": "https://www.freedomlend.com.au/",
         "description":
@@ -88,44 +93,32 @@
     ],
     "skills":[
       {
+        "name":"Bash",
+        "level":"95%"
+      },
+      {
+        "name":"Python",
+        "level":"95%"
+      },
+      {
+        "name":"AWS",
+        "level":"90%"
+      },
+      {
         "name":"Jenkins",
         "level":"80%"
       },
       {
         "name":"Terraform",
-        "level":"95%"
-      },
-      {
-        "name":"AWS",
         "level":"80%"
-      },
-      {
-        "name":"Azure",
-        "level":"50%"
       },
       {
         "name":"Docker",
         "level":"80%"
       },
       {
-        "name":"EKS/AKS",
-        "level":"60%"
-      },
-      {
-        "name":"Python",
-        "level":"80%"
-      },
-      {
-        "name":"Bash",
-        "level":"70%"
-      },
-      {
-        "name":"T-JavaScript",
-        "level":"70%"
-      },
-      {
-        "name":"SQL",
-        "level":"80%"
+        "name":"Azure",
+        "level":"50%"
       }
     ]
   },

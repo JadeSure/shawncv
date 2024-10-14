@@ -20,7 +20,7 @@ class Resume extends Component {
         <div key={education.school}>
           <h3>{education.school}</h3>
           <p className="info">
-            {education.degree} <span>&bull;</span>
+            {education.degree}
             <em className="date">{education.graduated}</em>
           </p>
           <p>{education.description}</p>
@@ -41,7 +41,7 @@ class Resume extends Component {
           </h3>
           <p className="info">
             {work.title}
-           <em className="date">{work.years}</em>
+           <em className="date date-right">{work.years}</em>
           </p>
           {/* <p>{work.description}</p> */}
           <p>
@@ -69,22 +69,6 @@ class Resume extends Component {
     return (
       <section id="resume">
         <Slide left duration={1300}>
-          <div className="row education">
-            <div className="three columns header-col">
-              <h1>
-                <span>Education</span>
-              </h1>
-            </div>
-
-            <div className="nine columns main-col">
-              <div className="row item">
-                <div className="twelve columns">{education}</div>
-              </div>
-            </div>
-          </div>
-        </Slide>
-
-        <Slide left duration={1300}>
           <div className="row work">
             <div className="three columns header-col">
               <h1>
@@ -109,6 +93,22 @@ class Resume extends Component {
 
               <div className="bars">
                 <ul className="skills">{skills}</ul>
+              </div>
+            </div>
+          </div>
+        </Slide>
+
+        <Slide left duration={1300}>
+          <div className="row education">
+            <div className="three columns header-col">
+              <h1>
+                <span>Education</span>
+              </h1>
+            </div>
+
+            <div className="nine columns main-col">
+              <div className="row item">
+                <div className="twelve columns">{education}</div>
               </div>
             </div>
           </div>

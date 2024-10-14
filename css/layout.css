@@ -276,6 +276,15 @@ ul#nav li.current a { color: #fe6928; }
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
+.date-right {
+   margin-left: auto;
+}
+
+.info {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
 
 /*----------------------------------------------*/
 /*	Skill Bars

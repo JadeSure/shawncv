@@ -87,7 +87,7 @@
         "web_link": "https://www.freedomlend.com.au/",
         "description":
           ["Developing a web fill automation tool using Selenium combined with .NET WPF, which auto- matically filled data into web forms, reducing manual data entry time. The tool was highly flexible, customizable, and improving productivity and streamlining workflows.",
-          "UtilizingSQL/T-SQLtogeneratereportsforservicedepartmentsbyleveragingSQLServerReporting Services (SSRS) on SQL Server as well as Postgresql databases. Insightful reports provided valuable information to our service departments, which helps to improve decision-making processes and in- crease efficiency."
+          "Utilizing SQL/T-SQL to generate reports for service departments by leveraging SQL Server Reporting Services (SSRS) on SQL Server as well as Postgresql databases. Insightful reports provided valuable information to our service departments, which helps to improve decision-making processes and in- crease efficiency."
         ]
       }
     ],

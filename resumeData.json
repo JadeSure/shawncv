@@ -93,23 +93,23 @@
     ],
     "skills":[
       {
-        "name":"Bash",
+        "name":"Bash/Python",
         "level":"95%"
       },
       {
-        "name":"Python",
-        "level":"95%"
-      },
-      {
-        "name":"AWS",
+        "name":"AWS Services",
         "level":"90%"
       },
       {
-        "name":"Jenkins",
+        "name":"Ansible",
+        "level":"85%"
+      },
+      {
+        "name":"Jenkins/GitHub Actions",
         "level":"80%"
       },
       {
-        "name":"Terraform",
+        "name":"Terraform/Cloudformation",
         "level":"80%"
       },
       {
@@ -117,7 +117,7 @@
         "level":"80%"
       },
       {
-        "name":"Azure",
+        "name":"Azure Services",
         "level":"50%"
       }
     ]

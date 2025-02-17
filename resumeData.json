@@ -5,6 +5,7 @@
     "image":"profilepic.jpg",
     "bio":"Stay Foolish, Stay Hungry",
     "certificates":[
+      {"name": "AWS Certified SysOps Administrator – Associate", "url": "https://www.credly.com/badges/4c8632dc-66ca-409d-bfcf-1017ec31bb95/public_url"},
       {"name": "AWS Certified Solutions Architect - Associate", "url": "https://www.credly.com/badges/d80af44f-6470-4f77-ae37-66385523e288/linked_in_profile"},
       {"name": "AWS Certified Developer - Associate", "url": "https://www.credly.com/badges/6be555a7-9eff-47b8-a456-b6a28b099f02/linked_in_profile"},
       {"name": "AZ-900: Microsoft Azure Fundamentals", "url": "https://learn.microsoft.com/api/credentials/share/en-au/ShawnWang-6192/D7889145FE27658F?sharingId"}
